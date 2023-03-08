@@ -35,6 +35,7 @@ a:hover{
 .navigation{
 	background-color:#393E41;
 	color:#191516;
+	height: 50px;
 
 	animation-name: menu;
 	animation-duration: 2s;
@@ -56,8 +57,7 @@ a:hover{
 	line-height: 50px;
 	font-size: 16px;
 	font-weight:800;
-	width: auto;
-	margin: 0 30px;
+
 
 }
 
@@ -71,6 +71,7 @@ a:hover{
 }
 .capa {
 	color: white;
+	vertical-align: top;
 }
 
 .capa span{
@@ -86,9 +87,8 @@ a:hover{
 
 .profile_pic{
 	width: 40%;
-	text-align: left;
-	padding-left: 300px;
-	padding-top: 20px;
+	text-align: center;
+
 	
 	animation-name:profile-capa ;
 	animation-duration:2s ;
@@ -105,10 +105,15 @@ a:hover{
 	vertical-align: top;
 	width: 59%;
 
-	animation-name:titulo-capa ;
-	animation-duration:1s ;
+	
 
 	}
+
+	.profile_title{
+		animation-name:titulo-capa ;
+	animation-duration:1s ;
+	}
+	
 
 	.profile_title h1{
 		font-size: 60px;
@@ -138,9 +143,9 @@ a:hover{
 
 	.cv-pic{
 		float:left;
-		width:250px;
-		margin-right: 50px;
-		margin-bottom: 50px;
+		width:280px;
+		margin-right: 20px;
+		margin-bottom: 20px;
 		border-radius: 250px;
 		border: 4px solid black;
 	}
@@ -252,18 +257,7 @@ box-shadow: 5px 5px 10px  rgb(29, 29, 30);
 	animation-name:link ;
 	animation-duration:2s ;
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
     
     
