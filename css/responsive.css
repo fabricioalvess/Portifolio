@@ -2,13 +2,55 @@
     
 @media (max-width: 800px){
 
+	.threeline-icon{
+		opacity: 1;
+		transition: 0.5s;
+	}
+	.threeline-icon:hover{
+		opacity: 0;
+		transition: 0.5s;
+	}
+
     .navigation li{
         display: none;
+		margin: 0;
+		height: auto;
+	
     }
+	.navigation{
+		height: auto;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.menuJs ul{
+		margin-top:0;
+		list-style: none;
+		padding: 0 15% 0 15%;
+		text-align: center;
+
+		height: 180px;
+		
+	}
+	.menuJs li{
+		width: 100%;
+		display: block;
+		padding: 0;
+		line-height: 50px;
+		font-size: 16px;
+		font-weight:800;
+	}
+
+
+	
+
+
+
+
     .navigation .threeline-icon {
         display: inline-block;
 		color: white;
-		font-size: 20px;
+		font-size: 30px;
+		color: rgb(255, 255, 255);
     }
 	.capa{
 		width: 0 auto;
@@ -16,20 +58,23 @@
     .capa div{
         display: block;
         height: auto;
-		width: 0 auto;
     }
     .profile_pic{
         width: 100%;
+		height: auto;
+		padding-top: 0px;
     }
     
     .profile-pic img{
         margin-top: 0;
 		max-width: 80%;
+		height: auto;
     }
  
 	.profile_title {
 		text-align: center;
 		width: 100%;
+		height: auto;
 	}
     .profile_title h1{
 		margin-top: 30px;
@@ -37,11 +82,47 @@
 		margin-left: 20px;
 		margin-right: 20px;
 	}
-    .profile_title h2{
+    .profile_title h2{ 
 		margin-top: 20px;
 		margin-left: 20px;
 		margin-right: 20px;
 	}
+
+	.main{
+		padding: 10% 5% 40px 5%;
+		width: 100%;
+	}
+	.main p{
+		text-align: left;
+		line-height: 30px;
+	}
+	.caminho li{
+		font-size: 16px;
+	}
+	.cv-pic{
+		float:none;
+		max-width:100%;
+		margin-right: 0px;
+		margin: auto;
+		margin-bottom: 0px;
+		border-radius: 250px;
+		border: 4px solid rgba(0, 0, 0, 0.629);
+	}
+	.miniatura{
+		width: 100%;
+		max-width: 100%;
+	   height:320px;
+	   display: inline-block;
+	   margin-right: 0px;
+	   margin-bottom: 20px;
+	   overflow: hidden;
+	   background-size: cover;
+}
+.blackbox{
+	opacity: 0.8
+}
+
+
 
 }
     
